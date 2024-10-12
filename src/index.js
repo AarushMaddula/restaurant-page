@@ -1,1 +1,3 @@
-alert("loool this works")
+import "./style.css";
+
+console.log("e");
