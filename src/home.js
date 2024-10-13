@@ -5,6 +5,8 @@ import menuPicture from "./story-3765-768x432.jpeg";
 const loadHomePage = function() {
     const content = document.querySelector('#content');
     content.innerHTML = "";
+    content.classList = [];
+    content.classList.add('home-content-page');
 
     const restaurantInfo = document.createElement('div');
     restaurantInfo.classList.add("restaurant-description");
@@ -21,7 +23,7 @@ const loadHomePage = function() {
 
 
     const menuItemPicture = document.createElement('div');
-    menuItemPicture.classList.add("menu-item-picture");
+    menuItemPicture.classList.add("home-picture");
 
     const img = document.createElement('img');
     img.setAttribute('src', menuPicture);

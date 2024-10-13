@@ -17,4 +17,5 @@ aboutButton.addEventListener('click', () => {
     loadAboutPage();
 })
 
+
 loadHomePage();
